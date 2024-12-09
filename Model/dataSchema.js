@@ -30,5 +30,5 @@ const dataSchema = new mongo.Schema({
   },
 });
 
-const Data= mongo.model("data",dataSchema)
-module.exports=Data
+const Data = mongo.model("data", dataSchema);
+module.exports = Data;
